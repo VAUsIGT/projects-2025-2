@@ -15,7 +15,7 @@
 
 1. Установка Docker:
 
-<a href="screenshots/1.PNG"><img src="screenshots/1.PNG" alt="docker_img" border="0"></a>
+<a href="screenshots/1.PNG"><img src="screenshots/1.PNG" alt="1_img" border="0"></a>
 
 2. Первый запуск Nginx
 
@@ -28,6 +28,10 @@
 4. Персонализация сайта:
 
 <a href="screenshots/4.PNG"><img src="screenshots/4.PNG" alt="4_img" border="0"></a>
+
+- Добавление страницы с био:
+
+<a href="screenshots/5.PNG"><img src="screenshots/5.PNG" alt="5_img" border="0"></a>
 
 ---
 ## Как запустить:
