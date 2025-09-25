@@ -23,7 +23,7 @@
 
 3. Создание пробного сайта:
 
-<a href="screenshots/4.PNG"><img src="screenshots/4.PNG" alt="3_img" border="0"></a>
+<a href="screenshots/3.PNG"><img src="screenshots/3.PNG" alt="3_img" border="0"></a>
 
 4. Персонализация сайта:
 
