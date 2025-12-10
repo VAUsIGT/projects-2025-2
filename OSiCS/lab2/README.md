@@ -13,6 +13,6 @@
 
 ### 1. Пункт:
 
-- 1. Подпункт:
+- 1. Подпункт ```команда```:
 
 <a href="files/1.png"><img src="files/1.png" alt="1_img" border="0"></a>
