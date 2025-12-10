@@ -6,13 +6,12 @@
 Ус Владимир, 3МО-1
 
 ---
-ТЗ: <a href="files/OS_lab1.docx"><img src="files/OS_lab1.docx" alt="task" border="0"></a>
-- Кратко: Создать веб-сервер в Docker с использованием Nginx и подключить HTML-страницу
+ТЗ: [Документ задания](files/OS_lab1.docx)
 ---
 
 ### Шаги
 
 
-1. Определение текущей даты:
+1. Определение текущей даты и установка новой даты:
 
-<a href="files/1.PNG"><img src="files/1.PNG" alt="1_img" border="0"></a>
+<a href="files/1.png"><img src="files/1.png" alt="1_img" border="0"></a>
