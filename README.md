@@ -6,3 +6,6 @@ University works (sem 5)
 
 ## WEB
 WEB-программирование (HTML, Docker, Nginx)
+
+## OSiCS
+Операционные системы и компьютерные сети (cmd, dos)
