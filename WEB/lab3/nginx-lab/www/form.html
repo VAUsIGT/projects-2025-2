@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заказ такси</title>
+    <style>
+        /* Анимация появления формы */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .form-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            animation: fadeIn 1s ease-out;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #34495e;
+        }
+        
+        /* Границы и фон для полей */
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        input[type="datetime-local"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #bdc3c7;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+            background-color: #f8f9fa; /* Светлый фон для полей */
+            transition: all 0.3s ease;
+        }
+        
+        input[type="checkbox"],
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        
+        .checkbox-group,
+        .radio-group {
+            margin: 15px 0;
+        }
+        
+        .checkbox-group label,
+        .radio-group label {
+            display: inline-flex;
+            align-items: center;
+            margin-right: 20px;
+            font-weight: normal;
+            cursor: pointer;
+        }
+        
+        /* Стилизация кнопки */
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        
+        /* Hover-эффект для кнопки */
+        button:hover {
+            background-color: #2980b9;
+            transform: scale(1.02);
+        }
+        
+        .required {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>🚕 Заказ такси</h1>
+        <form id="taxiForm" action="process.php" method="POST">
+            <!-- Текстовое поле: Имя -->
+            <div class="form-group">
+                <label for="name">Имя клиента <span class="required">*</span></label>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+            </div>
+
+            <!-- Поле для email -->
+            <div class="form-group">
+                <label for="email">Email <span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+            </div>
+
+            <!-- Числовое поле: Количество пассажиров -->
+            <div class="form-group">
+                <label for="passengers">Количество пассажиров <span class="required">*</span></label>
+                <input type="number" id="passengers" name="passengers" min="1" max="8" value="1" required>
+            </div>
+
+            <!-- Поле для даты и времени -->
+            <div class="form-group">
+                <label for="order_time">Дата и время заказа <span class="required">*</span></label>
+                <input type="datetime-local" id="order_time" name="order_time" required>
+            </div>
+
+            <!-- Выпадающий список: Тариф -->
+            <div class="form-group">
+                <label for="tariff">Тариф <span class="required">*</span></label>
+                <select id="tariff" name="tariff" required>
+                    <option value="">-- Выберите тариф --</option>
+                    <option value="economy">Эконом (от 150 ₽)</option>
+                    <option value="comfort">Комфорт (от 250 ₽)</option>
+                    <option value="business">Бизнес (от 400 ₽)</option>
+                    <option value="premium">Премиум (от 600 ₽)</option>
+                </select>
+            </div>
+
+            <!-- Чекбокс: Багаж -->
+            <div class="form-group">
+                <div class="checkbox-group">
+                    <label>
+                        <input type="checkbox" id="luggage" name="luggage" value="yes">
+                        🧳 Требуется багажное отделение (+50 ₽)
+                    </label>
+                </div>
+            </div>
+
+            <!-- Радио-кнопки: Тип авто -->
+            <div class="form-group">
+                <label>Тип автомобиля <span class="required">*</span></label>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="car_type" value="sedan" required>
+                        🚗 Седан (до 3 пассажиров)
+                    </label>
+                    <label>
+                        <input type="radio" name="car_type" value="minivan">
+                        🚐 Минивэн (до 6 пассажиров)
+                    </label>
+                    <label>
+                        <input type="radio" name="car_type" value="suv">
+                        🚙 Внедорожник (до 7 пассажиров)
+                    </label>
+                </div>
+            </div>
+
+            <!-- Кнопка отправки -->
+            <button type="submit">🚖 Заказать такси</button>
+        </form>
+    </div>
+
+    <script>
+        // Добавляем текущую дату и время по умолчанию
+        document.addEventListener('DOMContentLoaded', function() {
+            const now = new Date();
+            // Устанавливаем минимальную дату - текущий момент
+            const minDateTime = now.toISOString().slice(0, 16);
+            document.getElementById('order_time').min = minDateTime;
+            
+            // Устанавливаем значение по умолчанию - через 30 минут от текущего времени
+            now.setMinutes(now.getMinutes() + 30);
+            const defaultDateTime = now.toISOString().slice(0, 16);
+            document.getElementById('order_time').value = defaultDateTime;
+        });
+
+        // Alert с введенными данными перед отправкой
+        document.getElementById("taxiForm").addEventListener("submit", function(e) {
+            // Получаем значения из формы
+            const name = document.querySelector("[name='name']").value;
+            const email = document.querySelector("[name='email']").value;
+            const passengers = document.querySelector("[name='passengers']").value;
+            const orderTime = document.querySelector("[name='order_time']").value;
+            const tariff = document.querySelector("[name='tariff']").value;
+            
+            // Получаем значение чекбокса "Багаж"
+            const luggageCheckbox = document.querySelector("[name='luggage']");
+            const luggage = luggageCheckbox.checked ? "Да (+50 ₽)" : "Нет";
+            
+            // Получаем значение выбранного типа автомобиля
+            const carTypeRadio = document.querySelector("[name='car_type']:checked");
+            const carType = carTypeRadio ? carTypeRadio.value : "Не выбран";
+            
+            // Формируем сообщение для alert
+            const message = `Проверьте введенные данные:\n\n` +
+                           `Имя: ${name}\n` +
+                           `Email: ${email}\n` +
+                           `Количество пассажиров: ${passengers}\n` +
+                           `Дата и время: ${orderTime}\n` +
+                           `Тариф: ${tariff}\n` +
+                           `Багаж: ${luggage}\n` +
+                           `Тип автомобиля: ${carType}`;
+            
+            // Показываем alert с введенными данными
+            alert(message);
+            
+            // Форма будет отправлена автоматически после нажатия OK
+        });
+    </script>
+</body>
+</html>
