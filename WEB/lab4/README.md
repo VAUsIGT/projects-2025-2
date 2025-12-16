@@ -20,6 +20,25 @@
 
 ### Итог
 ---
-1. демо `демо`
+1. Добавили скан геолокации пользователя:
 
 <a href="screenshots/1.png"><img src="screenshots/1.png" alt="1_img" border="0"></a>
+
+2. Добавили фиксацию "железа" пользователя:
+
+<a href="screenshots/2.png"><img src="screenshots/2.png" alt="2_img" border="0"></a>
+
+3. Добавили обновление API ответов, обработку их ошибок а также сделали кэш временным:
+
+<a href="screenshots/3.png"><img src="screenshots/3.png" alt="3_img" border="0"></a>
+
+### Как запустить проект
+---
+1. Клонировать репозиторий:
+- `git clone https://github.com/VAUsIGT/projects-2025-2/tree/main/WEB/lab4`
+- `cd nginx-lab`
+2. Запустить контейнеры:
+- `docker-compose up -d --build`
+3. Открыть в браузере:
+- Форма заказа: `http://localhost:8080/form.html`
+- Главная страница c cookie, геолокацией, информацией о "железе", историей заказов и чтением данных из txt файла: `http://localhost:8080/index.php` 
