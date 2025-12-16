@@ -33,3 +33,13 @@
 <td><a href="lab4/screenshots/2.png"><img src="lab4/screenshots/2.png" alt="4.1_img" border="0"></a></td>
 <td><a href="lab4/screenshots/3.png"><img src="lab4/screenshots/3.png" alt="4.2_img" border="0"></a></td>
 </tr></table>
+
+---
+[Лабораторная №5](https://github.com/VAUsIGT/projects-2025-2/new/main/WEB/lab5):
+
+<a href="lab5/screenshots/4.png"><img src="lab5/screenshots/4.png" alt="5_img" border="0" width="500"></a>
+
+---
+[Лабораторная №6](https://github.com/VAUsIGT/projects-2025-2/new/main/WEB/lab6):
+
+<a href="lab6/screenshots/1.png"><img src="lab6/screenshots/1.png" alt="6_img" border="0" width="500"></a>
