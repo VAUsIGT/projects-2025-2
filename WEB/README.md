@@ -43,3 +43,9 @@
 [Лабораторная №6](https://github.com/VAUsIGT/projects-2025-2/new/main/WEB/lab6):
 
 <a href="lab6/screenshots/1.png"><img src="lab6/screenshots/1.png" alt="6_img" border="0" width="800"></a>
+
+---
+[Лабораторная №7](https://github.com/VAUsIGT/projects-2025-2/new/main/WEB/lab7):
+
+<a href="lab7/screenshots/1.png"><img src="lab7/screenshots/1.png" alt="7_img" border="0" width="800"></a>
+
