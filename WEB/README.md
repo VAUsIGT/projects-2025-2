@@ -29,5 +29,7 @@
 ---
 [Лабораторная №4](https://github.com/VAUsIGT/projects-2025-2/new/main/WEB/lab4):
 
-<a href="lab4/screenshots/2.png"><img src="lab2/screenshots/2.png" alt="3_img" border="0"></a>
-<a href="lab4/screenshots/3.png"><img src="lab2/screenshots/3.png" alt="3_img" border="0"></a>
+<table><tr>
+<td><a href="lab4/screenshots/2.png"><img src="lab4/screenshots/2.png" alt="4.1_img" border="0"></a></td>
+<td><a href="lab4/screenshots/3.png"><img src="lab4/screenshots/3.png" alt="4.2_img" border="0"></a></td>
+</tr></table>
