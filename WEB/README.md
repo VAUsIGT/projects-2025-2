@@ -12,22 +12,22 @@
 ### Список
 
 
-[Лабораторная №1](https://github.com/VAUsIGT/projects-2025-2/new/main/WEB/lab1):
+[Лабораторная №1](https://github.com/VAUsIGT/projects-2025-2/tree/main/WEB/lab1):
 
 <a href="lab1/screenshots/4.PNG"><img src="lab1/screenshots/4.PNG" alt="1_img" border="0"></a>
 
 ---
-[Лабораторная №2](https://github.com/VAUsIGT/projects-2025-2/new/main/WEB/lab2):
+[Лабораторная №2](https://github.com/VAUsIGT/projects-2025-2/tree/main/WEB/lab2):
 
 <a href="lab2/screenshots/2.PNG"><img src="lab2/screenshots/2.PNG" alt="2_img" border="0" width="500"></a>
 
 ---
-[Лабораторная №3](https://github.com/VAUsIGT/projects-2025-2/new/main/WEB/lab3):
+[Лабораторная №3](https://github.com/VAUsIGT/projects-2025-2/tree/main/WEB/lab3):
 
 <a href="lab3/screenshots/3.png"><img src="lab3/screenshots/3.png" alt="3_img" border="0" width="500"></a>
 
 ---
-[Лабораторная №4](https://github.com/VAUsIGT/projects-2025-2/new/main/WEB/lab4):
+[Лабораторная №4](https://github.com/VAUsIGT/projects-2025-2/tree/main/WEB/lab4):
 
 <table><tr>
 <td><a href="lab4/screenshots/2.png"><img src="lab4/screenshots/2.png" alt="4.1_img" border="0"></a></td>
@@ -35,17 +35,17 @@
 </tr></table>
 
 ---
-[Лабораторная №5](https://github.com/VAUsIGT/projects-2025-2/new/main/WEB/lab5):
+[Лабораторная №5](https://github.com/VAUsIGT/projects-2025-2/tree/main/WEB/lab5):
 
 <a href="lab5/screenshots/4.png"><img src="lab5/screenshots/4.png" alt="5_img" border="0" width="700"></a>
 
 ---
-[Лабораторная №6](https://github.com/VAUsIGT/projects-2025-2/new/main/WEB/lab6):
+[Лабораторная №6](https://github.com/VAUsIGT/projects-2025-2/tree/main/WEB/lab6):
 
 <a href="lab6/screenshots/1.png"><img src="lab6/screenshots/1.png" alt="6_img" border="0" width="800"></a>
 
 ---
-[Лабораторная №7](https://github.com/VAUsIGT/projects-2025-2/new/main/WEB/lab7):
+[Лабораторная №7](https://github.com/VAUsIGT/projects-2025-2/tree/main/WEB/lab7):
 
 <a href="lab7/screenshots/1.png"><img src="lab7/screenshots/1.png" alt="7_img" border="0" width="800"></a>
 
