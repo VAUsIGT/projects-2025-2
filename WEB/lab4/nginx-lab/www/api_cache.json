@@ -1,0 +1,123 @@
+{
+    "142e5f8831cd0c43391a74b60617f263": {
+        "data": {
+            "latitude": 55.75,
+            "lookupSource": "coordinates",
+            "longitude": 37.61,
+            "localityLanguageRequested": "ru",
+            "continent": "Европа",
+            "continentCode": "EU",
+            "countryName": "Россия",
+            "countryCode": "RU",
+            "principalSubdivision": "Москва",
+            "principalSubdivisionCode": "RU-MOW",
+            "city": "Москва",
+            "locality": "Арбат",
+            "postcode": "",
+            "plusCode": "9G7VQJ26+22",
+            "localityInfo": {
+                "administrative": [
+                    {
+                        "name": "Россия",
+                        "description": "государство в Восточной Европе и Северной Азии, крупнейшее по площади в мире",
+                        "isoName": "Russian Federation (the)",
+                        "order": 1,
+                        "adminLevel": 2,
+                        "isoCode": "RU",
+                        "wikidataId": "Q159",
+                        "geonameId": 2017370
+                    },
+                    {
+                        "name": "Центральный федеральный округ",
+                        "description": "группа субъектов РФ, созданная указом президента для своих представителей; не является административной единицей России",
+                        "order": 4,
+                        "adminLevel": 3,
+                        "wikidataId": "Q190778"
+                    },
+                    {
+                        "name": "Москва",
+                        "description": "cтолица и крупнейший город России, город федерального значения РФ",
+                        "order": 7,
+                        "adminLevel": 4,
+                        "wikidataId": "Q649",
+                        "geonameId": 524901
+                    },
+                    {
+                        "name": "Москва",
+                        "description": "cтолица и крупнейший город России, город федерального значения РФ",
+                        "isoName": "Moskva",
+                        "order": 8,
+                        "adminLevel": 4,
+                        "isoCode": "RU-MOW",
+                        "wikidataId": "Q649",
+                        "geonameId": 524894
+                    },
+                    {
+                        "name": "Центральный административный округ",
+                        "description": "один из 12 административных округов города Москвы",
+                        "order": 10,
+                        "adminLevel": 5,
+                        "wikidataId": "Q190412",
+                        "geonameId": 562331
+                    },
+                    {
+                        "name": "Хамовники",
+                        "description": "район города Москвы, расположенный в Центральном административном округе",
+                        "order": 11,
+                        "adminLevel": 8,
+                        "wikidataId": "Q862100",
+                        "geonameId": 9881950
+                    },
+                    {
+                        "name": "Тверской район",
+                        "description": "муниципальный округ города Москвы, Россия",
+                        "order": 12,
+                        "adminLevel": 8,
+                        "wikidataId": "Q2710104",
+                        "geonameId": 9881955
+                    },
+                    {
+                        "name": "Арбат",
+                        "description": "муниципальный округ города Москвы России",
+                        "order": 13,
+                        "adminLevel": 8,
+                        "wikidataId": "Q626920",
+                        "geonameId": 9881948
+                    }
+                ],
+                "informative": [
+                    {
+                        "name": "Европа",
+                        "description": "часть света в северном полушарии, омываемая водами Атлантического и Северного Ледовитого океанов",
+                        "isoName": "Europe",
+                        "order": 2,
+                        "isoCode": "EU",
+                        "wikidataId": "Q46",
+                        "geonameId": 6255148
+                    },
+                    {
+                        "name": "Europe\/Moscow",
+                        "description": "часовой пояс",
+                        "order": 3
+                    },
+                    {
+                        "name": "Центральный экономический район",
+                        "description": "economic region of Russia",
+                        "order": 5,
+                        "wikidataId": "Q918030"
+                    },
+                    {
+                        "name": "Moscow and Moscow region",
+                        "order": 6
+                    },
+                    {
+                        "name": "Москва",
+                        "order": 9
+                    }
+                ]
+            }
+        },
+        "timestamp": 1765872020,
+        "url": "https:\/\/api.bigdatacloud.net\/data\/reverse-geocode-client?latitude=55.75&longitude=37.61&localityLanguage=ru"
+    }
+}

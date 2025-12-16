@@ -1,0 +1,10 @@
+13;1@1;1;2025-12-15T20:02;business;no;minivan
+Vladimir Us;Vova.us2005@mail.ru;1;2025-12-15T20:17;economy;no;minivan;2025-12-15 19:48:44
+Владимир;Vova.us2005@mail.ru;1;2025-12-16T07:48;economy;no;sedan;2025-12-16 07:18:53
+Vladimir Us;Vova.us2005@mail.ru;2;2025-12-16T08:07;business;no;suv;2025-12-16 07:37:51
+Vladimir Us;Vova.us2005@mail.ru;4;2025-12-16T08:07;comfort;yes;minivan;2025-12-16 07:45:23
+Ус Владимир Андреевич;Vova.us2005@mail.ru;2;2025-12-16T08:27;comfort;yes;minivan;2025-12-16 07:57:59
+Ус Владимир Андреевич;Vova.us2005@mail.ru;2;2025-12-16T08:27;comfort;yes;minivan;2025-12-16 07:59:31
+Ус Владимир Андреевич;Vova.us2005@mail.ru;2;2025-12-16T08:27;comfort;yes;minivan;2025-12-16 07:59:33
+Ус Владимир Андреевич;Vova.us2005@mail.ru;2;2025-12-16T08:27;comfort;yes;minivan;2025-12-16 07:59:54
+Владимир;Vova.us2005@mail.ru;1;2025-12-16T11:15;economy;yes;minivan;2025-12-16 10:45:52
