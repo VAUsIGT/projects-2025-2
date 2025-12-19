@@ -14,21 +14,21 @@
 
 [Задание](labs%20info/L1.docx)
 
-Задание простое, объяснения не будет
+[Отчёт о решении](lab1/lab1.docx)
 
 ---
 [Лабораторная №2](lab2/lab2.cpp):
 
 [Задание](labs%20info/L2.docx)
 
-Задание простое, объяснения не будет
+[Отчёт о решении](lab2/lab2.docx)
 
 ---
 [Лабораторная №3](lab3/lab3.cpp):
 
 [Задание](labs%20info/L3.docx)
 
-Задание простое, объяснения не будет
+[Отчёт о решении](lab3/lab3.docx)
 
 ---
 [Лабораторная №4](lab4/lab4.cpp):
@@ -42,6 +42,8 @@
 
 <a href="screenshots/4.png"><img src="screenshots/4.png" alt="4_img" border="0"></a>
 
+[Отчёт о решении](lab4/lab4.docx)
+
 ---
 [Лабораторная №5](lab5/lab5.cpp):
 
@@ -50,6 +52,8 @@
 Кратко: Реализовать собственный мьютекс на основе атомарных переменных и методе compare_exchange, lock и unlock обязательны. На примере лабораторной 4.
 
 <a href="screenshots/5.png"><img src="screenshots/5.png" alt="5_img" border="0"></a>
+
+[Отчёт о решении](lab5/lab5.docx)
 
 ---
 [Лабораторная №6](lab6/lab6.cpp):
@@ -60,6 +64,8 @@
 
 <a href="screenshots/6.png"><img src="screenshots/6.png" alt="6_img" border="0" width="800"></a>
 
+[Отчёт о решении](lab6/lab6.docx)
+
 ---
 Лабораторная №7 [сервер](lab7/lab7.1.cpp) + [клиент](RTS/lab7/lab7.2.cpp):
 
@@ -68,3 +74,5 @@
 Кратко: Написать сервер и клиент с отправкой и принятием сообщений
 
 <a href="screenshots/7.png"><img src="screenshots/7.png" alt="7_img" border="0" width="800"></a>
+
+[Отчёт о решении](lab7/lab7.docx)
