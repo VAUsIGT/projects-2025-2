@@ -60,8 +60,9 @@
 
 [Задание](labs%20info/L6.docx)
 
-Кратко: Реализация прогрессбара с именем
+Кратко: Использование корутины для генерации чисел и реализация прогрессбара с именем
 
+<a href="screenshots/6.1.png"><img src="screenshots/6.1.png" alt="6.1_img" border="0" width="800"></a>
 <a href="screenshots/6.png"><img src="screenshots/6.png" alt="6_img" border="0" width="800"></a>
 
 [Отчёт о решении](lab6/lab6.docx)
