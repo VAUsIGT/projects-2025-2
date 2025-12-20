@@ -48,48 +48,48 @@
 
 10. Выполните операцию фильтрации, исполнив команду ```Get-Process | where {$_.handlecount -gt 400}```:
 
-<a href="screenshots/11.png"><img src="screenshots/11.png" alt="11_img" border="0"></a>
+<a href="screenshots/10.png"><img src="screenshots/10.png" alt="10_img" border="0"></a>
 
 11. Выполните операцию сортировки, исполнив команду ```Get-Process | where {$_.handlecount -gt 400} | sort-object Handles```:
 
-<a href="screenshots/12.png"><img src="screenshots/12.png" alt="12_img" border="0"></a>
+<a href="screenshots/11.png"><img src="screenshots/11.png" alt="11_img" border="0"></a>
 
 12. Произведем сортировку объектов по свойству WS (workingset) и выбор 5 процессов, занимающих больше всего памяти ```Get-Process | sort-object -property WS –descending| select-object -first 5```:
 
-<a href="screenshots/13.png"><img src="screenshots/13.png" alt="13_img" border="0"></a>
+<a href="screenshots/12.png"><img src="screenshots/12.png" alt="12_img" border="0"></a>
 
 13. Запустите Notepad. Выполнитекоманду ```Get-process notepad | stop-process```:
 
-<a href="screenshots/14.png"><img src="screenshots/14.png" alt="14_img" border="0"></a>
+<a href="screenshots/13.png"><img src="screenshots/13.png" alt="13_img" border="0"></a>
 
 14. ```Get-Process notepad | stop-process -whatif```:
 
-<a href="screenshots/15.png"><img src="screenshots/15.png" alt="15_img" border="0"></a>
+<a href="screenshots/14.png"><img src="screenshots/14.png" alt="14_img" border="0"></a>
 
 15. ```Get-Process notepad | stop-process -confirm```:
 
-<a href="screenshots/16.png"><img src="screenshots/16.png" alt="16_img" border="0"></a>
+<a href="screenshots/15.png"><img src="screenshots/15.png" alt="15_img" border="0"></a>
 
 16.	Создадим новый подкаталог TextFiles в текущем каталоге ```new-itemTextFiles -itemtype directory```:
 
-<a href="screenshots/17.png"><img src="screenshots/17.png" alt="17_img" border="0"></a>
+<a href="screenshots/16.png"><img src="screenshots/16.png" alt="16_img" border="0"></a>
 
 17. Создайте несколько новых файлов в текущем каталоге: ```psdemo.txt```, ```1.txt```, ```2.txt```:
 
-<a href="screenshots/18.png"><img src="screenshots/18.png" alt="18_img" border="0"></a>
+<a href="screenshots/17.png"><img src="screenshots/17.png" alt="17_img" border="0"></a>
 
 18.	Скопируем все файлы с расширением ```*.txt``` в подкаталог ```TextFiles```, используя команду ```copy-item```:
 
-<a href="screenshots/19.png"><img src="screenshots/19.png" alt="19_img" border="0"></a>
+<a href="screenshots/18.png"><img src="screenshots/18.png" alt="18_img" border="0"></a>
 
 19.	С помощью команды ```rename-item``` переименовываем файл ```psdemo.txt``` в ```psdemo.bak```. При необходимости можно применять опции ```-path``` и ```-newName``` ```rename-item psdemo.txt psdemo.bak```:
 
-<a href="screenshots/20.png"><img src="screenshots/20.png" alt="20_img" border="0"></a>
+<a href="screenshots/19.png"><img src="screenshots/19.png" alt="19_img" border="0"></a>
 
 20.	После того как файл переименован, переносим его на один уровень вверх, используя команду ```move-item``` ```move-itempsdemo.bak ..\```:
 
-<a href="screenshots/21.png"><img src="screenshots/21.png" alt="21_img" border="0"></a>
+<a href="screenshots/20.png"><img src="screenshots/20.png" alt="20_img" border="0"></a>
 
 21.	Манипуляции с файловой системой мы завершаем удалением всего каталога ```TextFiles```, используя команду ```remove-item```. Поскольку в каталоге ```TextFiles``` содержатся файлы, применяется опция ```-recurse``` ```remove-itemTextFiles–recurse```:
 
-<a href="screenshots/22.png"><img src="screenshots/22.png" alt="22_img" border="0"></a>
+<a href="screenshots/21.png"><img src="screenshots/21.png" alt="21_img" border="0"></a>
